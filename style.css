@@ -15,8 +15,8 @@ html
 
 body.red
 { 
-    --primary-color: ;
-    --primary-color-hover: ; 
+    --primary-color: rgb(214, 40, 40);
+    --primary-color-hover: rgb(228, 77, 77); 
 }
 
 body.dark-red
