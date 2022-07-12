@@ -63,6 +63,36 @@ img.perfil
     padding: 3.7px;
 }
 
+img.github
+{
+    width: fit-content;
+    height: fit-content;
+    padding-right: 3px;
+}
+
+div.conteudo
+{
+    display: contents;
+    flex-direction: row;
+    
+}
+
+img.twitter
+{
+    width: fit-content;
+    height: fit-content;
+    padding-left: 6.5px;
+    padding-right: 9.7px;
+}
+
+img.instagram
+{
+    width: fit-content;
+    height: fit-content;
+    padding-left: 6.5px;
+    padding-right: 10px;
+}
+
 ul
 {
     list-style: none;
@@ -72,6 +102,7 @@ ul
 a
 {
     text-decoration: none;
+    padding-right: 30px;
 }
 
 h1
