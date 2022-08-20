@@ -8,7 +8,7 @@
 html
 {
     --bg-color: #EDF2FF;
-    --color: #000B2F ;
+    --color: #000B2F;
     --primary-color: #4262EB;
     --primary-color-hover: #364FC7; 
 }
@@ -25,6 +25,8 @@ body.dark-mode
     --color: white;
     --primary-color: rgb(117, 12, 19);
     --primary-color-hover: rgb(128, 21, 21); 
+
+    transition: 450ms;
 }
 
 body
@@ -36,12 +38,9 @@ body
 
 header
 {
-    background: var(--primary-color);
-
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
 
     margin: 0px;
     padding: 10px;
@@ -50,20 +49,16 @@ header
 header nav
 {   
     display: flex;
-    gap: 400px;
-}
-
-header nav p.nav-text
-{
-    font-size: 30px;
-    color: white;
+    gap: 40px;
 }
 
 header nav button.nav-button
 {
-    padding: 5px;
+    padding: 15px;
     align-items: center;
-    border-radius: 30px;
+    border-radius: 20px;
+    border: var(--primary-color) solid 2.7px;
+
     color: var(--color);
     background: var(--bg-color);
 }
